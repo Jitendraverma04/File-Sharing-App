@@ -9,11 +9,10 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin:["https://filesharewithmefront-end.vercel.app"],
-  method:["GET","POST"],
-  credentials:true
-  }
-));
+  origin: 'https://file-sharing-app-iota-five.vercel.app', // replace with your frontend URL
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
+}));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use('/', router);
