@@ -1,6 +1,6 @@
 
 import axios from 'axios'; 
-const API_URL='http://localhost:8000';
+const API_URL='https://sharefilewithme-eight.vercel.app/';
 
 
 export const uploadFile=async(data)=>{
