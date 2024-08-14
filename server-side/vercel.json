@@ -3,6 +3,9 @@
     {
       "src": "/",
       "dest": "/"
+    }, {
+      "src": "/upload",
+      "dest": "/index.js"
     }
   ]
 }
