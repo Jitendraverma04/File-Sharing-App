@@ -29,7 +29,7 @@ app.use('/',()=>{
 });
 
 
-app.use('/', router);
+// app.use('/', router);
 
 const PORT = process.env.PORT || 8000;
 
