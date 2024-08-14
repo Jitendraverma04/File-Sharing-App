@@ -23,6 +23,12 @@ const app = express();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+app.use('/',()=>{
+    return "Hello Sir";
+});
+
+
 app.use('/', router);
 
 const PORT = process.env.PORT || 8000;
